@@ -1,0 +1,20 @@
+.button {
+  background-color: red; /* Primary color */
+  color: green;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  /* Initial state */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.button:active {
+  background-color: #004080; /* Even darker shade on click */
+  transform: scale(0.95); /* Slightly scale down to create a "pressed" effect */
+}
